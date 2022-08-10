@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,700&family=Roboto:wght@500&family=Sansita+Swashed:wght@500&display=swap');
+
+/* --------------------body---------------------- */
+
+body{
+    background-color: #2B2922;
+}
+
+/* container */
+
+.container {
+    width: 100%;
+    
+  }
+  /* Navbar */
+
+  .logo {
+    float: left;
+    position: absolute;
+    
+    top: 42px;
+    left: 174px;
+    
+  }
+
+  .list-item {
+    float: left;
+    position: relative;
+    color: #758283;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+    font-size: 23px;
+    top: 17px;
+    left: 760px;
+    list-style: none;
+    font-family: montserrat;
+    cursor: grab;
+  }
+
+  .list-item:hover{
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+
+  .button-small {
+    position: relative;
+    float: right;
+    top: 20px;
+    right: 189px;
+    background-color: transparent;
+    border: 3px solid #918234;
+    font-size: 24px;
+    padding: 0.5em 1.5em;
+    font-family: montserrat;
+    color: #918234;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: grab;
+  }
+
+  .button-small:hover{
+    color: #000000;
+    font-weight: 600;
+    background-color: #ffffff;
+    transition-duration: 1s;
+  transition-delay: 0.01s;
+  }
+
+
+  /* flex box */
+
+  .flex-container {
+    display: flex;
+    background-color: transparent;
+    position: absolute;
+    float: left;
+    top: 180px;
+    right: 0px;
+    left: 140px;
+
+  }
+  
+  .flex-container > div {
+    background-color: transparent;
+    
+    
+  }
+
+  .flex1{
+    font-size: 90px !important;
+    font-family: Montserrat;
+    line-height: 120px;
+    color: #ffffff;
+    font-weight: 800;
+  }
+
+  .flex2{
+    font-size: 25px !important;
+    font-family: montserrat;
+   color: #abadad;
+   line-height: 36px;
+   margin: 50px;
+   padding-left: 112px;
+  }
+
+
+
+
+  .bottom{
+    position: relative;
+    top: 440px;
+    right: 10;
+    left: 10;
+    background-size: cover;
+    width: 100% !important;
+    height: 300px;
+  }
