@@ -6,8 +6,6 @@ In this project I learned how to designing websites with button styles and text 
 
 Netlify
 
-[Project-2 live-link]()
+[Project-2 live-link](https://live-class-project-3-rj.netlify.app/)
 
-![Badge]()
-
-![Badge](https://img.shields.io/badge/Project1-live-brightgreen)
+![Badge](https://img.shields.io/badge/Project--3-Live-brightgreen)
